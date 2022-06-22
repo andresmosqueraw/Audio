@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>AUDIOS</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="listado-canciones">
+            <div class="cancion">
+                <div class="titulo">
+                    Pinions
+                </div>
+                <div class="play" id="Pinions - Freedom Trail Studio">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </div>
+                <div class="stop">
+                    <span class="material-symbols-outlined">pause</span>
+                </div>
+                <div class="descargar">
+                    <a href="./audios/Pinions - Freedom Trail Studio.mp3" download>
+                        <span class="material-symbols-outlined">download</span>
+                    </a>
+                </div>      
+            </div>
+
+            <div class="cancion">
+                <div class="titulo">
+                    Straight Fuse
+                </div>
+                <div class="play" id="Straight Fuse - French Fuse">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </div>
+                <div class="stop">
+                    <span class="material-symbols-outlined">pause</span>
+                </div>
+                <div class="descargar">
+                    <a href="./audios/Straight Fuse - French Fuse.mp3" download>
+                        <span class="material-symbols-outlined">download</span>
+                    </a>
+                </div>      
+            </div>
+
+            <div class="cancion">
+                <div class="titulo">
+                    Trickling Up
+                </div>
+                <div class="play" id="Trickling Up - Godmode">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </div>
+                <div class="stop">
+                    <span class="material-symbols-outlined">pause</span>
+                </div>
+                <div class="descargar">
+                    <a href="./audios/Trickling Up - Godmode.mp3" download>
+                        <span class="material-symbols-outlined">download</span> 
+                    </a>
+                </div>      
+            </div>
+        </div>
+        <input type="range" max="1" min="0" step="0.1" class="volumen">
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
